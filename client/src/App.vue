@@ -5,7 +5,9 @@
 <template>
   <nav>
     <router-link to="/hello">Hello</router-link> |
-    <router-link to="/myhello">My Hello</router-link>
+    <router-link to="/myhello">My Hello</router-link> |
+    <router-link to="/posts">Posts</router-link>
+
 
     <router-view/>
   </nav>
